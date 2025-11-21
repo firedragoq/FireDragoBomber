@@ -152,7 +152,7 @@ def check_for_updates():
         return
     mesgdcrt.SectionMessage("Checking for updates")
     fver = requests.get(
-        "https://github.com/AlexBieber/RevengeBomber2.0/blob/main/.version"
+        "https://github.com/firedragoq/FireDragoBomber/blob/6ecf383164c623775cbb44cabd77c62424301135/.version"
     ).text.strip()
     if fver != __VERSION__:
         mesgdcrt.WarningMessage("An update is available")
@@ -430,3 +430,4 @@ if __name__ == "__main__":
             mesgdcrt.WarningMessage("Received INTR call - Exiting...")
             sys.exit()
     sys.exit()
+
