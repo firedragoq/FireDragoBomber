@@ -32,7 +32,7 @@ banner() {
     if ! [ -x "$(command -v figlet)" ]; then
         echo 'Introducing FireDragoBomber'
     else
-                 figlet RevengeBomber2.0
+                 figlet FireDragoBomber
     fi
     if ! [ -x "$(command -v toilet)" ]; then
         echo -e "\e[4;34m This Bomber Was Created By \e[1;32mFireDragoq \e[0m"
@@ -138,13 +138,13 @@ echo " "
     clear
    if [ $ch -eq 1 ];then
         cd $HOME
-        cd RevengeBomber2.0
+        cd FireDragoBomber
         python3 bomber.py
        
         exit
     elif [ $ch -eq 2 ];then
         cd $HOME
-        cd RevengeBomber2.0
+        cd FireDragoBomber
         python3 bomber.py
         
         exit
@@ -159,15 +159,15 @@ echo " "
         exit
     elif [ $ch -eq 4 ];then
         cd $HOME
-        cd RevengeBomber2.0
-        bash RevengeBomber2.0.sh
+        cd FireDragoBomber
+        bash FireDragoBomber.sh
     elif [ $ch -eq 5 ];then
         echo -e "\e[1;34m Downloading Latest Files..."
         cd $HOME
         rm -rf FireDragoBomber
         https://github.com/AlexBieber/FireDragoBomber-2.0
-        cd RevengeBomber2.0
-        bash RevengeBomber2.0.sh
+        cd FireDragoBomber
+        bash FireDragoBomber.sh
        
         exit
     elif [ $ch -eq 6 ];then
